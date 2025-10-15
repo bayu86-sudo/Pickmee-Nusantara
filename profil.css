@@ -1,0 +1,14 @@
+.person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: aqua;
+    flex-direction: column;
+}
+
+.profil {
+    width: 100px;
+    height: 100px;
+    margin-left: 60px;
+}

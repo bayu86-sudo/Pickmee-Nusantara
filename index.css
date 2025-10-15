@@ -1,0 +1,126 @@
+body {
+    font-family: sans-serif;
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: darkgoldenrod;
+    color: black;
+    gap: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 24px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    background-color: aquamarine;
+    margin: 0px;
+}
+
+.produk-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.produk {
+    background: rgb(red, green, blue);
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(red, green, blue, alpha);
+    padding: 15px;
+}
+
+.produk h3 {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.harga {
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: blueviolet;
+    color: rgb(red, green, blue);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin: 5px 0;
+    width: 90%;
+}
+
+button:hover {
+    background: darkorange;
+}
+
+footer {
+    text-align: center;
+    background-color: #2F5755;
+    color: white;
+    height: 480px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+.logo-hd {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 15px;
+}
+
+
+.person {
+    display: block;
+    margin-left: 25px;
+    margin-right: 0;
+    margin-top: 30px;
+}
+
+.gear {
+    display: block;
+    margin-right: 0;
+    margin-top: 30px;
+}
+
+.cart {
+    display: block;
+    margin-right: 0;
+    margin-top: 30px;
+}
+
+.text {
+    font-size: 32px;
+    margin: 40px;
+    margin-left: 0;
+}
+
+.logo-ft {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.x-lg {
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+h5 {
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+}
